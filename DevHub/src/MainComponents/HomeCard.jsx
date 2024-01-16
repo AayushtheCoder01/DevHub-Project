@@ -6,7 +6,7 @@ function HomeCard() {
     const myImage = "../public/Snapchat-1190848567.jpg"
   return (
     <>
-    <div className='flex justify-center mt-10 p-10 flex-col'>
+    <div className='flex justify-center w-full mt-10 p-10 flex-col'>
     <h2 className='title-h2 text-center text-white font-semibold text-3xl md:text-5xl'>Welcome to Dev<span className='title-text text-center text-blue-600 font-bold'>Hub</span>.</h2>
     </div>
     <p className=" text-center text-gray-400 m-3 mx-10 md:mx-40">
