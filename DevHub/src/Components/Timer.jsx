@@ -110,7 +110,7 @@ export default function Timer() {
         <input onChange={checkAndSetSeconds} value={seconsds} type='number' max={60} min={1}/>
 
             <sub>
-                <span className='text-lg text-white p-1'>secs</span>
+                <span className='text-lg text-white p-1'>sec</span>
             </sub>
         </div>
     </div>
