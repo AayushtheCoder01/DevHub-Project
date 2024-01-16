@@ -12,6 +12,8 @@
     justify-content: center;
     align-items: center;
     color: rgb(202, 202, 65);
+    background-color: rgb(27, 29, 46);
+    border-radius: 20px;
 }
 
 .stopwatchRun-btn{

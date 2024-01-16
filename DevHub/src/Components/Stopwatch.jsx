@@ -122,14 +122,14 @@ function Stopwatch() {
         {run ? <button onClick={resetTimer} className='stopwatchRun-btn bg-green-600 p-3 rounded-xl'><GrPowerReset color='white'size={25}/></button> : '' }
     </div>
 
-    <h2 className='text-white text-3xl text-center mt-20 font-semibold'>Today's Total Time </h2>
+    <h2 className='text-white text-3xl text-center mt-20 mb-10 font-semibold'>Today's Total Time </h2>
     <div className='flex justify-center'>
-    <div className='elem-divs w-20 mx-2 text-4xl sm:text-6xl'>{localHour}
+    <div className='elem-divs w-30 mx-4 text-4xl sm:text-6xl'>{localHour}
             <sub>
                 <span className='text-lg text-white p-1'>hrs</span>
             </sub>
         </div>
-    <div className='elem-divs mx-2 w-20 text-4xl sm:text-6xl'>{localMin}
+    <div className='elem-divs mx-4 w-30 text-4xl sm:text-6xl'>{localMin}
             <sub>
                 <span className='text-lg text-white p-1'>min</span>
             </sub>
