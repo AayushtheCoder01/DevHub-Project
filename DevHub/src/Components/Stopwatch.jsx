@@ -64,6 +64,7 @@ function Stopwatch() {
             setMinutes((prev) => prev+1)
             setSeconds(0)
         }
+        console.log(seconsds)
     }, [seconsds])
 
     useEffect(() => {
