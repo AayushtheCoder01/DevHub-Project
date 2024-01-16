@@ -1,0 +1,29 @@
+.stopwatch-main{
+    height: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+.elem-divs{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(202, 202, 65);
+}
+
+.stopwatchRun-btn{
+    transition: all ease 0.1s;
+    margin: 7px;
+}
+.stopwatchRun-btn:active{
+    scale: 0.95;
+}
+input{
+    padding: 0px;
+    height: 4rem;
+    width: 5rem;
+    background-color: transparent;
+}
