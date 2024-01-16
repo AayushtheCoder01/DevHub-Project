@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useState, useRef } from 'react'
 import Stopwatch from '../Components/Stopwatch'
-import Timer from '../Components/Timer'
+import Timer from '../Components/Timer.jsx'
 
 function Timing() {
     const [mode, setMode] = useState(true)
