@@ -46,12 +46,17 @@ function Stopwatch() {
         localStorage.setItem('Minutes', localMin + minutes)
         localStorage.setItem('Hours', localHour + hours)
         localStorage.setItem('date',dayOfMonth)
-        // checkDay()
         setSeconds(0)
         setMinutes(0)
         setHours(0)
         setRun(prev => !prev)
-
+        setLocalTime()
+      }
+      function setLocalTime () {
+        if (localMin==60) {
+            localStorage.setItem('Minutes', 0)
+            localStorage.setItem('Hours', localHour + 1)
+        }
       }
 
     useEffect(() => {
