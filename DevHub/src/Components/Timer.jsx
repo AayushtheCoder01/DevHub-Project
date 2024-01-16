@@ -5,7 +5,7 @@ import { FaPause } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
 import { GrPowerReset } from "react-icons/gr";
 
-export default function Timer() {
+function Timer() {
 
     const [run, setRun] = useState(false)
     const [seconsds, setSeconds] = useState(60)
@@ -125,3 +125,5 @@ export default function Timer() {
     </>
   )
 }
+
+export default Timer
